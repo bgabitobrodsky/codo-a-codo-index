@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="theme-color" content="#fff" />
+
+	<title>Bernardo Gabito Brodsky</title>
+	
+	<link rel="icon" type="image/png" href="img/favicon.png">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body id="body">
+	<header>
+		<div class="container">
+			<h1>Bernardo Gabito Brodsky</h1>
+			<div class="custom-control custom-switch toggle-theme-container">
+				<input type="checkbox" class="custom-control-input" id="toggle-theme">
+				<label class="custom-control-label" for="toggle-theme"><i class="fas fa-moon"></i></label>
+			</div>
+			
+		</div>
+	</header>
+	<main>
+		<section class="min-vh-100 presen-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 img-box">
+						<img src="img/yo.jpg" alt="">
+					</div>
+					<div class="col-lg-9 presentacion-box text-center text-lg-left">
+						<h2 class="text-center text-lg-left w-100 mt-2">Presentación</h2>
+						<p>
+							Hola, mi nombre es Bernardo. Tengo 20 años, estudio Ingeniería en Sistemas de Información en la UTN. También me recibí de técnico en programación en la secundaria. Me gusta salir a correr de vez en cuando, jugar juegos de computadora y me consideran un buen jugador de ajedrez. 
+						</p>
+						<p>
+							Como pasatiempos durante la cuarentena me propuse ver ReactJS, subir a <span style="color:gold">oro</span> en el LoL y por fin aprender PHP, ya que varías veces lo usé para proyectos de secundaria sin saber mucho. Mi expectativa con el curso es conseguir un conocimiento base sobre esta tecnología con el cual poder profundizar para futuras propuestas laborales.
+						</p>
+					</div>
+				</div>
+				<div class="row mt-5 mb-5 mb-lg-0 d-none d-lg-flex">
+					<div class="col-6 justify-content-center justify-content-lg-start d-flex">
+						<a href="https://www.linkedin.com/in/bernardogabito/" class="nav-link p-5 bg-info ml-5 ml-lg-0" target="_blank"><i class="fab fa-linkedin fa-4x"></i></a>
+						<a href="#mail" data-toggle="collapse" role="button" class="nav-link p-5 bg-info d-flex flex-nowrap align-middle"><i class="fas fa-at fa-4x"></i></a>
+						<div id="mail" class="collapse" style="background: #117A8B; transition: .2s ease;">
+							<div class="h-100 px-1 px-lg-3 d-flex align-items-center justify-content-center text-white">
+								bernardogabito@gmail.com
+							</div>
+
+						</div>
+					</div>
+					<div class="col-lg-6 d-flex align-middle justify-content-end">
+						<a href="#actividades" class="nav-link boton-abajo p-md-5 bg-danger"><i class="fas fa-arrow-down fa-4x"></i></a>
+					</div>
+				</div>
+				<div class="row d-lg-none">
+					<div class="col-12">
+						<a href="#contacto" role="button" data-toggle="collapse" class="text-center nav-link p-3 bg-info"><h2 class="m-0 p-0 text-white">Contacto</h2></a>
+						<div id="contacto" class="collapse">
+							<div class="p-0 bg-info text-center">
+								<p class="p-3  text-white">bernardogabito@gmail.com</p>
+								<p class="m-0 mx-auto">
+									<a href="https://www.linkedin.com/in/bernardogabito/" class="nav-link p-3 bg-info" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="actividades">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 p-0">
+						<div class="container-fluid">
+							<div class="actividades-header">
+								<h2>Actividades </h2>
+								<div class="filtros">
+									<select class="form-control" id="filtro">
+										<option class="filtro todos" value="0">Todas</option>
+										<option class="filtro proyectos" value="3">Proyectos</option>
+										<option class="filtro desafios" value="2">Desafios</option>
+										<option class="filtro actividades" value="1">Actividades</option>
+									</select>
+								</div>
+							</div>
+							<div class="row" id="act">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="js/theme.js"></script>
+	<script src="js/actividades.js"></script>
+</body>
+</html>
