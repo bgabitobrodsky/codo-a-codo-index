@@ -1,0 +1,14 @@
+.volver-boton{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	padding: 10px;
+	background: #222;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+.volver-boton:hover{
+	text-decoration: none;
+	color: #e2e2e2;
+}
